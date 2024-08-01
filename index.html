@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=">
+    <title>Number guessing Game</title>
+    <link rel="stylesheet" href="./N_G_G.css">
+   
+</head>
+<body>
+    <div id="b-contain">
+        <div id = "div-id">
+            Number guessing 
+        </div>
+    
+        <main id="main-id">
+        <div id = "first-main">
+            We have selected  a rendem number between 1 to 100. See if you can guess it 10 turns or fewer. We'll  tell you if your guess was too high or too low.
+        </div>
+        <div id ="sec-main">
+            <button class="but-start" 
+                    id ="str-but" 
+                    onclick="startGame()">
+            Start Game</button>
+            <input type="number"
+                    id="input_id"
+                    readonly
+                    required
+                    placeholder="Enter here...."
+            >            
+            <button type="submit" 
+                    id="sub-but" 
+                    class="but-start"
+                    onclick="checkGuesses()"
+                    onmouseover="takeNumber()"
+            >
+            play</button>
+            <p id="contain">all number </p>
+            <span id="span">Note :- Must start the game before play </span>
+        </div>
+        </main>
+        <script src="./javaScript.js"></script>
+    </body>
+</html>

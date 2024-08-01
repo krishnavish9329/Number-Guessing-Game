@@ -1,0 +1,91 @@
+body{
+    border: 3px solid black;
+    height: 630px;
+    align-content: center; /* it's for  vertical center*/
+    background-color: rgb(0, 57, 86);
+    color: white;
+}
+#b-contain{
+    width: 40%;
+    height: 60%;
+    /* border: 2px solid #f40505; */
+    display: block; /* it's 2 line for horizental center */
+    margin: auto;
+    align-content: center; /* it's for  vertical center*/
+    border-radius: 10px;
+    background-color: rgb(0, 57, 86);
+    color: white;
+    box-shadow: 10px 9px 22px 12px red;
+}
+#div-id{
+    width: 80%;
+    text-align : center;
+    color:red ;
+    font-size: 40px;
+    font-weight: 900;
+    display: block; /* it's 2 line for horizental center */
+    margin: auto;
+    height: 80px;
+
+    /* border: 2px solid rgb(17, 15, 15); */
+}
+#main-id{
+    width: 80%;
+    display: block;
+    margin: auto;    
+    align-content: center;
+}
+#first-main{
+    text-align : center;
+    font-size: 19px;
+    width: 93%;
+    display: block;
+    margin: auto;
+    padding: 16px;
+}
+#sec-main{
+
+    align-content: center; /* it's for  vertical center*/
+    display: block;/* it's 2 line for horizental center */
+    margin: auto;
+    padding: 2px 16px;
+    width: 93%;
+}
+.but-start{
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 57, 86);
+    color: white;
+}
+.but-start:hover {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.but-start:active {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: yellow;
+    color: red;
+    
+}
+#input_id{
+    display: block;
+    margin: 11px auto;
+    border-radius: 10px;
+    padding-left: 9px;
+    background-color: rgb(0, 57, 86);
+    color: white;
+    border: 3px solid black;
+}
+#contain{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#span{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
