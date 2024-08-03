@@ -71,5 +71,5 @@ function checkGuesses(){
 
 
 
-    document.getElementById("input_id").value =0;
+    document.getElementById("input_id").value ='';
 }
