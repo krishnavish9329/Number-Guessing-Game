@@ -38,7 +38,7 @@ function checkGuesses(){
         return;
     }
 
-    if(guess >= 100 && guess <=0)
+    if(guess >= 100 || guess <=0)
     {
         span_tage.innerHTML = "Node:- Enter wrong number";
         span_tage.style.color="red";
