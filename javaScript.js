@@ -29,7 +29,7 @@ function checkGuesses(){
     const conatin_number = document.getElementById('contain');
     ++term;
 
-    if(term>=10)
+    if(term>=10 && term <=0)
     {
         span_tage.innerHTML = `loss the game please try agein `;
         document.getElementById("input_id").setAttribute = "readonly";
